@@ -1,0 +1,19 @@
+import urllib.request
+import json
+
+url = input('Enter URL: ')
+print('Retrieving', url)
+
+uh = urllib.request.urlopen(url)
+data = uh.read().decode()
+print('Retrieve', len(data), 'characters')
+
+info = json.loads(data)
+comments = info['comments']
+
+countlist = []
+for item in comments:
+    countlist.append(item['count'])
+    
+print('Count:', len(countlist))
+print('Sum:', sum(countlist))
