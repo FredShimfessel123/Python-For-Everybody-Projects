@@ -1,1 +1,1 @@
-# Python-For-Everybody-Projects
+# Python-For-Everybody-Projects-a collection of Python exercises and assignments from the University of Michigan Coursera specialization, demonstrating my progressin data extraction, web scraping, and data manipulation using XML, JSON, and APIs. 
